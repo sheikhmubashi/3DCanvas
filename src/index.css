@@ -1,0 +1,155 @@
+@import "./assets/fonts/fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Updated Purple Theme Variables from Coolors Palette */
+    --primary: 262 35% 58%; /* #886DA9 */
+    --primary-foreground: 210 40% 98%;
+    --secondary: 262 25% 95%;
+    --secondary-foreground: 262 35% 25%;
+    --accent: 262 30% 90%;
+    --accent-foreground: 262 35% 30%;
+    --muted: 262 20% 96%;
+    --muted-foreground: 262 20% 45%;
+    --card: 0 0% 100%;
+    --card-foreground: 262 35% 25%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 262 35% 25%;
+    --border: 262 20% 90%;
+    --input: 262 20% 90%;
+    --ring: 262 35% 58%;
+    --background: 0 0% 100%;
+    --foreground: 262 35% 25%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --sidebar-background: 262 15% 98%;
+    --sidebar-foreground: 262 35% 30%;
+    --sidebar-primary: 262 35% 58%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 262 25% 92%;
+    --sidebar-accent-foreground: 262 35% 30%;
+    --sidebar-border: 262 20% 88%;
+    --sidebar-ring: 262 35% 58%;
+
+    /* Coolors Purple Palette - Exact Hex to HSL Conversion */
+    --purple-900: 262 35% 45%; /* #67527F */
+    --purple-800: 262 32% 48%; /* #715A8C */
+    --purple-700: 262 30% 52%; /* #7C639A */
+    --purple-600: 262 35% 58%; /* #886DA9 - Primary */
+    --purple-500: 262 38% 62%; /* #9678BA */
+    --purple-400: 262 42% 66%; /* #A084C0 */
+    --purple-300: 262 45% 70%; /* #A98FC6 */
+    --purple-200: 262 48% 74%; /* #B199CB */
+    --purple-100: 262 52% 78%; /* #B8A2D0 */
+    --purple-50: 262 55% 82%; /* #BEAAD4 */
+  }
+
+ 
+
+  html {
+    font-family: "Artifakt Element", sans-serif;
+  }
+
+  body {
+    font-family: "Artifakt Element", sans-serif;
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+}
+
+@layer utilities {
+  .font-artifakt {
+    font-family: "Artifakt Element", sans-serif;
+  }
+
+  .font-artifakt-bold {
+    font-family: "Artifakt Element", sans-serif;
+    font-weight: 700;
+  }
+
+  /* Coolors Purple Gradient Utilities */
+  .bg-purple-gradient {
+    background: linear-gradient(135deg, #886da9 0%, #7c639a 100%);
+  }
+
+  .bg-purple-gradient-light {
+    background: linear-gradient(135deg, #b8a2d0 0%, #a98fc6 100%);
+  }
+
+  .bg-purple-gradient-dark {
+    background: linear-gradient(135deg, #67527f 0%, #715a8c 100%);
+  }
+
+  .text-purple-gradient {
+    background: linear-gradient(135deg, #886da9 0%, #7c639a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Individual Coolors Purple Classes */
+  .bg-purple-coolors-1 {
+    background-color: #67527f;
+  }
+  .bg-purple-coolors-2 {
+    background-color: #715a8c;
+  }
+  .bg-purple-coolors-3 {
+    background-color: #7c639a;
+  }
+  .bg-purple-coolors-4 {
+    background-color: #886da9;
+  }
+  .bg-purple-coolors-5 {
+    background-color: #9678ba;
+  }
+  .bg-purple-coolors-6 {
+    background-color: #a084c0;
+  }
+  .bg-purple-coolors-7 {
+    background-color: #a98fc6;
+  }
+  .bg-purple-coolors-8 {
+    background-color: #b199cb;
+  }
+  .bg-purple-coolors-9 {
+    background-color: #b8a2d0;
+  }
+  .bg-purple-coolors-10 {
+    background-color: #beaad4;
+  }
+
+  .text-purple-coolors-1 {
+    color: #67527f;
+  }
+  .text-purple-coolors-2 {
+    color: #715a8c;
+  }
+  .text-purple-coolors-3 {
+    color: #7c639a;
+  }
+  .text-purple-coolors-4 {
+    color: #886da9;
+  }
+  .text-purple-coolors-5 {
+    color: #9678ba;
+  }
+  .text-purple-coolors-6 {
+    color: #a084c0;
+  }
+  .text-purple-coolors-7 {
+    color: #a98fc6;
+  }
+  .text-purple-coolors-8 {
+    color: #b199cb;
+  }
+  .text-purple-coolors-9 {
+    color: #b8a2d0;
+  }
+  .text-purple-coolors-10 {
+    color: #beaad4;
+  }
+}

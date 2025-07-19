@@ -1,0 +1,27 @@
+/* Artifakt Element Font Implementation */
+@font-face {
+  font-family: "Artifakt Element";
+  src: url("./ArtifaktElement-Bold.woff2") format("woff2"), url("./ArtifaktElement-Bold.woff") format("woff"),
+    url("./ArtifaktElement-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Artifakt Element";
+  src: url("./ArtifaktElement-Regular.woff2") format("woff2"), url("./ArtifaktElement-Regular.woff") format("woff"),
+    url("./ArtifaktElement-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Artifakt Element";
+  src: url("./ArtifaktElement-Medium.woff2") format("woff2"), url("./ArtifaktElement-Medium.woff") format("woff"),
+    url("./ArtifaktElement-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

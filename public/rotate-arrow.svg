@@ -1,0 +1,8 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- The main path is wrapped in a group with a 180-degree rotation transform -->
+  <g transform="rotate(180 32 32)">
+    <path d="M54 32C54 44.1503 44.1503 54 32 54C19.8497 54 10 44.1503 10 32" stroke="#4A5568" stroke-width="3" stroke-linecap="round"/>
+    <path d="M10 32L6 28M10 32L14 28" stroke="#4A5568" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M54 32L58 36M54 32L50 36" stroke="#4A5568" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
